@@ -11,7 +11,7 @@ import SwiftUI
 struct NestedViewModelsApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(topViewModel: TopViewModel(title: "Title", subtitle: "Subtitle"))
         }
     }
 }

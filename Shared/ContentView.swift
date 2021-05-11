@@ -6,16 +6,20 @@
 //
 
 import SwiftUI
+import Combine
 
 struct ContentView: View {
+    
+    @ObservedObject var topViewModel: TopViewModel
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        TextField(topViewModel.title, text: $topViewModel.title)
+        SubContentView(subViewModel: topViewModel.subViewModel())
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        ContentView(topViewModel: TopViewModel(title: "Title", subtitle: "Subtitle"))
     }
 }

@@ -13,6 +13,12 @@
 		EDA60ECF264ADA73009606A5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA60EBA264ADA71009606A5 /* ContentView.swift */; };
 		EDA60ED0264ADA73009606A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDA60EBB264ADA73009606A5 /* Assets.xcassets */; };
 		EDA60ED1264ADA73009606A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDA60EBB264ADA73009606A5 /* Assets.xcassets */; };
+		EDA60EDD264ADA86009606A5 /* TopViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA60EDC264ADA86009606A5 /* TopViewModel.swift */; };
+		EDA60EDE264ADA86009606A5 /* TopViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA60EDC264ADA86009606A5 /* TopViewModel.swift */; };
+		EDA60EE2264ADB4A009606A5 /* SubViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA60EE1264ADB4A009606A5 /* SubViewModel.swift */; };
+		EDA60EE3264ADB4A009606A5 /* SubViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA60EE1264ADB4A009606A5 /* SubViewModel.swift */; };
+		EDA60EE7264ADCDD009606A5 /* SubContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA60EE6264ADCDD009606A5 /* SubContentView.swift */; };
+		EDA60EE8264ADCDD009606A5 /* SubContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA60EE6264ADCDD009606A5 /* SubContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +30,9 @@
 		EDA60EC8264ADA73009606A5 /* NestedViewModels.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NestedViewModels.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDA60ECA264ADA73009606A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EDA60ECB264ADA73009606A5 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		EDA60EDC264ADA86009606A5 /* TopViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopViewModel.swift; sourceTree = "<group>"; };
+		EDA60EE1264ADB4A009606A5 /* SubViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubViewModel.swift; sourceTree = "<group>"; };
+		EDA60EE6264ADCDD009606A5 /* SubContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +68,10 @@
 			children = (
 				EDA60EB9264ADA71009606A5 /* NestedViewModelsApp.swift */,
 				EDA60EBA264ADA71009606A5 /* ContentView.swift */,
+				EDA60EE6264ADCDD009606A5 /* SubContentView.swift */,
 				EDA60EBB264ADA73009606A5 /* Assets.xcassets */,
+				EDA60EDC264ADA86009606A5 /* TopViewModel.swift */,
+				EDA60EE1264ADB4A009606A5 /* SubViewModel.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -188,7 +200,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				EDA60ECE264ADA73009606A5 /* ContentView.swift in Sources */,
+				EDA60EDD264ADA86009606A5 /* TopViewModel.swift in Sources */,
 				EDA60ECC264ADA73009606A5 /* NestedViewModelsApp.swift in Sources */,
+				EDA60EE7264ADCDD009606A5 /* SubContentView.swift in Sources */,
+				EDA60EE2264ADB4A009606A5 /* SubViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,7 +212,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				EDA60ECF264ADA73009606A5 /* ContentView.swift in Sources */,
+				EDA60EDE264ADA86009606A5 /* TopViewModel.swift in Sources */,
 				EDA60ECD264ADA73009606A5 /* NestedViewModelsApp.swift in Sources */,
+				EDA60EE8264ADCDD009606A5 /* SubContentView.swift in Sources */,
+				EDA60EE3264ADB4A009606A5 /* SubViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
